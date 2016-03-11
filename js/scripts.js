@@ -20,7 +20,10 @@ function offset(numberOfOffset)	{
 	}
 }
 
-
+$(".launch-modal").click(function(){
+	var currImage = ($(this)[0].src);
+	$(".modal-body img")[0].src = currImage;
+});
 
 
 
